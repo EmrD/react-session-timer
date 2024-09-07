@@ -14,7 +14,7 @@ function App() {
 
   const handleLogin = () => {
     setLogin(true);
-    setTimer(5);
+    setTimer(5); //your timer value to delete the session
 
     document.getElementById("loginb").style.visibility = "hidden";
 
